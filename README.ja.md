@@ -114,7 +114,7 @@ yarn install --production
 そして `GitHub Actions` は使用されるたびにダウンロードされるため、ファイルは少ないほうが良いです。  
 
 `CLEAN_TARGETS` オプションはこの目的のために使用されます。  
-default: `.[!.]*,__tests__,src,*.js,*.ts,*.json,*.lock,*.yml,*.yaml`  
+default: `.[!.]*,__tests__,docs,src,*.js,*.ts,*.json,*.lock,*.yml,*.yaml`  
 
 ```shell
 rm -rdf .[!.]*
